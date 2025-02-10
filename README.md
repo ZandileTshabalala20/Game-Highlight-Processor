@@ -148,7 +148,7 @@ Optional - Confirm there is a video uploaded to s3:///processed_videos/
 - Increasing the amount of videos process and converted with AWS Media Convert
 - Change the date from static (specific point in time) to dyanmic (now, last 30 days from today's date,etc)
 
-Part 2 - Terraform Bonus
+## **Part 2 - Terraform Bonus**
 - Setup terraform.tfvars File
 - In the github repo, there is a resources folder and copy the entire contents
 - In the AWS Cloudshell or vs code terminal, create the file vpc_setup.sh and paste the script inside.
@@ -199,5 +199,5 @@ A high level overview of terraform files
 Networking - VPCs, Internet Gateways, private subnets and public subnets
 SSM for saving secrets and pulling into terraform
 
-Future Enhancements
+## **Future Enhancements**
 Automating the creation of VPCs/networking infra, media endpoint
